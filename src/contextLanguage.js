@@ -5,11 +5,11 @@ import EN from "./language/english.json";
 export const languages = {
   spanish: {
     id: "ES",
-    texto: ES,
+    text: ES,
   },
   english: {
     id: "EN",
-    texto: EN,
+    text: EN,
   },
 };
 const LanguageContext = createContext(languages.spanish);
